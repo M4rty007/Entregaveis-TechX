@@ -1,0 +1,4 @@
+def calcular_media(notas):
+    """Retorna a media."""
+    t = sum(notas)
+    return t / len(notas)

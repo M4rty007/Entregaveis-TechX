@@ -1,0 +1,21 @@
+def dobro(x):
+    return x * 2
+
+print(dobro(5)) # 10
+
+def dividir(a, b):
+    if b == 0:
+        return None # saida antecipada
+    return a / b
+
+#___Mais_de_um_valor___#
+
+def dividir(a, b):
+    # devolve uma TUPLA
+    return a // b, a % b
+
+q, r = dividir(17, 5)
+print(q, r) # 3 2
+
+res = dividir(17, 5)
+print(res) # (3, 2)
